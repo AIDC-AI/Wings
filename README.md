@@ -118,3 +118,12 @@ This project is licensed under the [Apache License, Version 2.0](https://www.apa
 ## Disclaimer
 
 We used compliance-checking algorithms during the training process, to ensure the compliance of the trained model to the best of our ability. Due to the complexity of the data and the diversity of language model usage scenarios, we cannot guarantee that the model is completely free of copyright issues or improper content. If you believe anything infringes on your rights or generates improper content, please contact us, and we will promptly address the matter.
+
+## Acknowledgements
+
+We would like to express our gratitude to the [LLaVA](https://github.com/haotian-liu/LLaVA) project and its contributors for their invaluable code that has significantly aided in our research and development efforts. Special thanks to Xiaoming for his crucial contributions in fixing the bug within the model architecture file.
+
+
+## Acknowledgements
+
+We express our gratitude to the [LLaVA](https://github.com/haotian-liu/LLaVA) project and its contributors. Special thanks to [Xudong Lu](https://github.com/Lucky-Lance) for fixing the bug in `modeling_wings_llama.py`.
