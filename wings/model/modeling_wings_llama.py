@@ -661,6 +661,7 @@ class WingsLlamaForCausalLM(LlamaForCausalLM, WingsMetaForCausalLM):
                 "past_key_values": past_key_values,
                 "use_cache": use_cache,
                 "attention_mask": attention_mask,
+                "images": kwargs.get("images", None)
             }
         )
         return model_inputs
