@@ -102,6 +102,7 @@ def unpad_image(tensor, original_size):
 
 class WingsMetaForCausalLM(ABC):
     MODEL_MAPPING = {
+        "llava_qwen2": "LLaVAQwen2ForCausalLM",
         "wings_qwen2": "WingsQwen2ForCausalLM",
         "wings_llama3_1": "WingsLlamaForCausalLM"
     }
